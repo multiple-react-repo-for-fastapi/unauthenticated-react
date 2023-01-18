@@ -1,0 +1,15 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply font-primary;
+}
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
